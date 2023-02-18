@@ -13,6 +13,9 @@
 		F86FD14929A05940004D4DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86FD14729A05940004D4DB1 /* Main.storyboard */; };
 		F86FD14B29A05942004D4DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86FD14A29A05942004D4DB1 /* Assets.xcassets */; };
 		F86FD14E29A05942004D4DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86FD14C29A05942004D4DB1 /* LaunchScreen.storyboard */; };
+		F86FD15729A05ABD004D4DB1 /* Font Awesome 6 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = F86FD15629A05ABD004D4DB1 /* Font Awesome 6 Brands-Regular-400.otf */; };
+		F86FD15929A05AD3004D4DB1 /* Font Awesome 6 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = F86FD15829A05AD3004D4DB1 /* Font Awesome 6 Free-Solid-900.otf */; };
+		F86FD15B29A05ADF004D4DB1 /* Font Awesome 6 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = F86FD15A29A05ADF004D4DB1 /* Font Awesome 6 Free-Regular-400.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F86FD14A29A05942004D4DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F86FD14D29A05942004D4DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86FD14F29A05942004D4DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86FD15629A05ABD004D4DB1 /* Font Awesome 6 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		F86FD15829A05AD3004D4DB1 /* Font Awesome 6 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		F86FD15A29A05ADF004D4DB1 /* Font Awesome 6 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Free-Regular-400.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		F86FD14029A05940004D4DB1 /* Ejercicio4 */ = {
 			isa = PBXGroup;
 			children = (
+				F86FD15529A05AA7004D4DB1 /* fonts */,
 				F86FD14129A05940004D4DB1 /* AppDelegate.swift */,
 				F86FD14329A05940004D4DB1 /* SceneDelegate.swift */,
 				F86FD14529A05940004D4DB1 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				F86FD14F29A05942004D4DB1 /* Info.plist */,
 			);
 			path = Ejercicio4;
+			sourceTree = "<group>";
+		};
+		F86FD15529A05AA7004D4DB1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F86FD15629A05ABD004D4DB1 /* Font Awesome 6 Brands-Regular-400.otf */,
+				F86FD15A29A05ADF004D4DB1 /* Font Awesome 6 Free-Regular-400.otf */,
+				F86FD15829A05AD3004D4DB1 /* Font Awesome 6 Free-Solid-900.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86FD15B29A05ADF004D4DB1 /* Font Awesome 6 Free-Regular-400.otf in Resources */,
+				F86FD15729A05ABD004D4DB1 /* Font Awesome 6 Brands-Regular-400.otf in Resources */,
 				F86FD14E29A05942004D4DB1 /* LaunchScreen.storyboard in Resources */,
 				F86FD14B29A05942004D4DB1 /* Assets.xcassets in Resources */,
 				F86FD14929A05940004D4DB1 /* Main.storyboard in Resources */,
+				F86FD15929A05AD3004D4DB1 /* Font Awesome 6 Free-Solid-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

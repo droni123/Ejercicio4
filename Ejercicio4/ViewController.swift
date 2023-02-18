@@ -9,6 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var twitter: UIButton!
+    
+    @IBOutlet weak var facebook: UIButton!
+    
+    
+    @IBOutlet weak var youtube: UIButton!
+    
+    @IBOutlet weak var instagram: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
