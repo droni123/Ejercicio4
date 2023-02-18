@@ -19,57 +19,94 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="1CT-iW-BlY">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visita nuestras redes sociales" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uw-9v-dVi">
-                                        <rect key="frame" x="19.666666666666657" y="0.0" width="353.66666666666674" height="131.66666666666666"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visita nuestras redes sociales" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uw-9v-dVi">
+                                        <rect key="frame" x="19.666666666666657" y="0.0" width="353.66666666666674" height="87"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mid-OG-Bhv">
-                                        <rect key="frame" x="130.66666666666669" y="156.66666666666666" width="131.66666666666669" height="131.99999999999997"/>
+                                        <rect key="frame" x="153" y="112" width="87" height="87"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Mid-OG-Bhv" secondAttribute="height" multiplier="1:1" id="EGP-XS-F8V"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Twitter"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Twitter">
+                                            <fontDescription key="titleFontDescription" name="FontAwesome6Brands-Regular" family="Font Awesome 6 Brands" pointSize="25"/>
+                                        </buttonConfiguration>
                                         <connections>
-                                            <action selector="accionTwtter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tcp-Ds-BY4"/>
+                                            <action selector="accionAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AII-V5-Ucu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBy-Et-wgw">
-                                        <rect key="frame" x="130.66666666666669" y="313.66666666666669" width="131.66666666666669" height="131.66666666666669"/>
+                                        <rect key="frame" x="153" y="224" width="87" height="87"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="WBy-Et-wgw" secondAttribute="height" multiplier="1:1" id="HE8-nX-P0y"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Facebook"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Facebook">
+                                            <fontDescription key="titleFontDescription" name="FontAwesome6Brands-Regular" family="Font Awesome 6 Brands" pointSize="25"/>
+                                        </buttonConfiguration>
                                         <connections>
-                                            <action selector="accionFacebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AWe-Yu-P4P"/>
+                                            <action selector="accionAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l88-sQ-SZH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEe-wg-o6C">
-                                        <rect key="frame" x="130.66666666666669" y="470.33333333333337" width="131.66666666666669" height="132"/>
+                                        <rect key="frame" x="153" y="336" width="87" height="87"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="zEe-wg-o6C" secondAttribute="height" multiplier="1:1" id="gic-Lq-R2n"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Yotutube"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Youtube">
+                                            <fontDescription key="titleFontDescription" name="FontAwesome6Brands-Regular" family="Font Awesome 6 Brands" pointSize="25"/>
+                                        </buttonConfiguration>
                                         <connections>
-                                            <action selector="accionYoutube:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZa-qe-L8z"/>
+                                            <action selector="accionAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m0N-AP-SGH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THO-QX-hkr">
-                                        <rect key="frame" x="130.66666666666669" y="627.33333333333337" width="131.66666666666669" height="131.66666666666663"/>
+                                        <rect key="frame" x="153" y="448" width="87" height="87"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="THO-QX-hkr" secondAttribute="height" multiplier="1:1" id="Dc1-j9-DYF"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Instagram"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Instagram">
+                                            <fontDescription key="titleFontDescription" name="FontAwesome6Brands-Regular" family="Font Awesome 6 Brands" pointSize="25"/>
+                                        </buttonConfiguration>
                                         <connections>
-                                            <action selector="accionInstagram:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l4R-ut-bN2"/>
+                                            <action selector="accionAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDG-yZ-GtT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooE-4v-k6x">
+                                        <rect key="frame" x="153" y="560" width="87" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ooE-4v-k6x" secondAttribute="height" multiplier="1:1" id="M3u-2Z-viS"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="PE">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="accionAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVX-Se-HDr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3z-e1-wbW">
+                                        <rect key="frame" x="153" y="672" width="87" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Y3z-e1-wbW" secondAttribute="height" multiplier="1:1" id="2Le-q2-D3n"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="shareplay" catalog="system"/>
+                                        <connections>
+                                            <action selector="accionAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBq-8d-Kte"/>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="ooE-4v-k6x" firstAttribute="width" secondItem="ooE-4v-k6x" secondAttribute="height" multiplier="1:1" id="0g5-dj-sXQ"/>
+                                    <constraint firstItem="Y3z-e1-wbW" firstAttribute="width" secondItem="Y3z-e1-wbW" secondAttribute="height" multiplier="1:1" id="5eC-2K-IS0"/>
+                                    <constraint firstItem="Y3z-e1-wbW" firstAttribute="width" secondItem="Y3z-e1-wbW" secondAttribute="height" multiplier="1:1" id="BRB-GH-ZJy"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -82,8 +119,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="CP" destination="Y3z-e1-wbW" id="G8J-Gn-UWk"/>
                         <outlet property="facebook" destination="WBy-Et-wgw" id="3tK-0i-4z0"/>
                         <outlet property="instagram" destination="THO-QX-hkr" id="zsj-o4-TyZ"/>
+                        <outlet property="labelTitulo" destination="9uw-9v-dVi" id="wbR-AD-tBO"/>
+                        <outlet property="telefono" destination="ooE-4v-k6x" id="pFT-yH-jkA"/>
                         <outlet property="twitter" destination="Mid-OG-Bhv" id="KVR-Jd-ceb"/>
                         <outlet property="youtube" destination="zEe-wg-o6C" id="9Fj-YD-O7I"/>
                     </connections>
@@ -94,6 +134,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="shareplay" catalog="system" width="128" height="75"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
