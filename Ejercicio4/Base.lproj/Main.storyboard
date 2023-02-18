@@ -31,7 +31,7 @@
                                             <constraint firstAttribute="width" secondItem="Mid-OG-Bhv" secondAttribute="height" multiplier="1:1" id="EGP-XS-F8V"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Twitter"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Twitter"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBy-Et-wgw">
                                         <rect key="frame" x="130.66666666666669" y="313.66666666666669" width="131.66666666666669" height="131.66666666666669"/>
@@ -39,7 +39,7 @@
                                             <constraint firstAttribute="width" secondItem="WBy-Et-wgw" secondAttribute="height" multiplier="1:1" id="HE8-nX-P0y"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Facebook"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Facebook"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEe-wg-o6C">
                                         <rect key="frame" x="130.66666666666669" y="470.33333333333337" width="131.66666666666669" height="132"/>
@@ -47,7 +47,7 @@
                                             <constraint firstAttribute="width" secondItem="zEe-wg-o6C" secondAttribute="height" multiplier="1:1" id="gic-Lq-R2n"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Yotutube"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Yotutube"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THO-QX-hkr">
                                         <rect key="frame" x="130.66666666666669" y="627.33333333333337" width="131.66666666666669" height="131.66666666666663"/>
@@ -55,7 +55,7 @@
                                             <constraint firstAttribute="width" secondItem="THO-QX-hkr" secondAttribute="height" multiplier="1:1" id="Dc1-j9-DYF"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Instagram"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Instagram"/>
                                     </button>
                                 </subviews>
                             </stackView>
