@@ -32,6 +32,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Twitter"/>
+                                        <connections>
+                                            <action selector="accionTwtter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tcp-Ds-BY4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBy-Et-wgw">
                                         <rect key="frame" x="130.66666666666669" y="313.66666666666669" width="131.66666666666669" height="131.66666666666669"/>
@@ -40,6 +43,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Facebook"/>
+                                        <connections>
+                                            <action selector="accionFacebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AWe-Yu-P4P"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEe-wg-o6C">
                                         <rect key="frame" x="130.66666666666669" y="470.33333333333337" width="131.66666666666669" height="132"/>
@@ -48,6 +54,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Yotutube"/>
+                                        <connections>
+                                            <action selector="accionYoutube:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZa-qe-L8z"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THO-QX-hkr">
                                         <rect key="frame" x="130.66666666666669" y="627.33333333333337" width="131.66666666666669" height="131.66666666666663"/>
@@ -56,6 +65,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Instagram"/>
+                                        <connections>
+                                            <action selector="accionInstagram:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l4R-ut-bN2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

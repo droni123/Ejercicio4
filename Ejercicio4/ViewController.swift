@@ -19,6 +19,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    
+    @IBAction func accionTwtter(_ sender: UIButton) {
+    }
+    
+    @IBAction func accionFacebook(_ sender: UIButton) {
+    }
+    
+    @IBAction func accionYoutube(_ sender: UIButton) {
+    }
+    
+    @IBAction func accionInstagram(_ sender: UIButton) {
+    }
 }
 
