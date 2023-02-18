@@ -39,10 +39,6 @@ class ViewController: UIViewController {
         */
         telefono.titleLabel?.font = UIFont(name: "FontAwesome6Free-Regular", size: 25)
         telefono.titleLabel?.text = "\u{f03e}"
-        //telefono.font.fontName =
-        //UIFont(name: , size: 30)!
-        //telefono.text = "\u{f095}"
-        
         twitter.tag = 0
         facebook.tag = 1
         youtube.tag = 2
